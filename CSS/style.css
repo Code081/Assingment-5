@@ -80,6 +80,15 @@ main p{
     text-transform: uppercase;
     border-radius: 50px;
 }
+.cta:hover{
+    background-color:rgb(252, 151, 0) ;
+    cursor: pointer;
+}
+.cta:active{
+    background-color:rgb(204, 123, 2) ;
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .signin-btn{
     padding: 15px 30px;
     background-color:rgb(230, 173, 211) ;
